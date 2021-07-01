@@ -1,0 +1,19 @@
+Nome Tabella: cars
+
+id - intero - MEDIUMINT - PRIMARY_KEY - AUTO_INCREMENT
+license_plate - stringa - VARCHAR(7) - NOTNULL - UNIQUE
+manufacturers - stringa - VARCHAR(200) - NOTNULL 
+model - stringa - VARCHAR(20) - NOTNULL 
+color - stringa - VARCHAR(20) - NOTNULL 
+type - stringa - VARCHAR(20) - NULL 
+fuel_system - stringa - VARCHAR(20) - NOTNULL
+driver's_side - stringa - VARCHAR(5) - NOTNULL 
+displacement - intero - MEDIUMINT - NOTNULL
+km_traveled - intero - MEDIUMINT - NOTNULL 
+car_review - boolean - TINYINT - NOTNULL 
+last_review - data - DATE - NULL
+car_insurance - boolean - TINYINT - NOTNULL
+production_year - data - YEAR
+purchase_year - data - YEAR
+price - duble - DUBLE(8,2) - DEFAULT (0.00) - NOTNULL
+prompt_delivery - boolean - TINYINT - NULL 
